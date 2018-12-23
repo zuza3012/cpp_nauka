@@ -14,5 +14,5 @@ class Robotnik: public Pracownik {
 	double GetPensja(); 
 	void GetInfo();
 	void Zapisz(char* a);
-	
+	void Wczytaj (char* a);
 };

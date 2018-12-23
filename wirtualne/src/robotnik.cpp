@@ -47,12 +47,35 @@ void Robotnik :: Zapisz(char* a){
 }
 
 
- /*std::fstream plik;
-    plik.open( "nazwa_pliku.txt", std::ios::in | std::ios::out );
-    if( plik.good() == true )
-    {
-        //tu operacje na pliku (zapis/odczyt)
-        plik.close();
-    }
-    return( 0 );
-    * */
+void Robotnik :: Wczytaj (char* a){
+	fstream plik;
+	plik.open(a, ios::in);
+	
+	string im, naz, t;
+	int w, st;
+	double sta, godz;
+	
+	if(plik.good() == true){
+        while(!plik.eof()){
+            plik >> t >> im >> naz;
+            plik >> w >> st;
+            plik >> sta;
+            plik >> godz;
+			
+			tytul = t;
+			imie = im;
+			nazwisko = naz;
+			wiek = w;
+			staz = st;
+			stawka = sta;
+			iloscGodzin = godz;
+        }
+    }else{
+		cerr << "Nie moge otworzyc pliku!!!" << endl;
+		exit (1);
+	}
+	 plik.close();
+
+}
+
+

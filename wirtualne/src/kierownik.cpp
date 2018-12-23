@@ -46,3 +46,35 @@ void Kierownik :: Zapisz(char* a){
 	
 }
 
+
+void Kierownik :: Wczytaj (char* a){
+	fstream plik;
+	plik.open(a, ios::in);
+	
+	string im, naz, t;
+	int w, st;
+	double prem, pp;
+	
+	if(plik.good() == true){
+        while(!plik.eof()){
+            plik >> t >> im >> naz;
+            plik >> w >> st;
+            plik >> prem;
+            plik >> pp;
+			
+			tytul = t;
+			imie = im;
+			nazwisko = naz;
+			wiek = w;
+			staz = st;
+			premia = prem;
+			pPodstawowa = pp;
+        }
+    }else{
+		cerr << "Nie moge otworzyc pliku!!!" << endl;
+		exit (1);
+	}
+	 plik.close();
+
+}
+

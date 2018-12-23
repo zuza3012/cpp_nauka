@@ -43,5 +43,31 @@ int main (int argc, char** argv){
 	rob2.Zapisz(argv[1]);
 	kier.Zapisz(argv[1]);
 	
+	Robotnik rob3;
+	
+	Pracownik *pracownik3;
+	pracownik3 = &rob3;
+	
+	pracownik3 -> GetInfo();
+	cout << endl;
+	
+	rob3.Wczytaj(argv[2]);
+	pracownik3 -> GetInfo();
+	cout << endl;
+	
+	Kierownik kier2;
+	
+	Pracownik *pracownik4;
+	pracownik4 = &kier2;
+	
+	pracownik4 -> GetInfo();
+	cout << endl;
+	
+	kier2.Wczytaj(argv[3]);
+	pracownik4 -> GetInfo();
+	cout << endl;
+	
+	
+	
 	return 0;
 }
