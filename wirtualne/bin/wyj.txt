@@ -1,0 +1,24 @@
+Przedstawiamy robotnika: 
+Pan Jan Kowalski
+Wiek: 28
+Staz: 2
+Stawka: 20
+Pensja: 2000
+Przepracowane godziny: 100
+
+Przedstawiamy robotnika: 
+Pan Marek Nowak
+Wiek: 25
+Staz: 1
+Stawka: 15
+Pensja: 2250
+Przepracowane godziny: 150
+
+Przedstawiamy kierownika: 
+mgr inz Henryk Wisniewski
+Wiek: 40
+Staz: 10
+Premia: 0
+Pensja podstawowa: 4000
+Pensja: 4000
+

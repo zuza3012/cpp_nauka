@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -g  -rdynamic CMakeFiles/praca.dir/src/main.cpp.o CMakeFiles/praca.dir/src/pracownik.cpp.o CMakeFiles/praca.dir/src/kierownik.cpp.o CMakeFiles/praca.dir/src/wizytowka.cpp.o CMakeFiles/praca.dir/src/robotnik.cpp.o  -o bin/praca  -L/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/bin 
