@@ -30,7 +30,7 @@ int main (int argc, char** argv){
 
 	resize (zdjecie, zdj_pomn, Size(276*0.75,182*0.75), 0, 0, CV_INTER_LINEAR);//Size (width, height) lub Size (liczba_pixeli_kolumny*procent,liczba_pixeli_wiersze*procent)
 	
-	//namedWindow (zdjecieNazwa, WINDOW_AUTOSIZE); //otwiera okno, jak odkomentowane to wyswietli 6 okien, 3-zdjecia, 3 puste okna
+	//namedWindow (zdjecieNazwa, WINDOW_AUTOSIZE); //otwiera okno, jak odkomento/wane to wyswietli 6 okien, 3-zdjecia, 3 puste okna
 	//namedWindow ("szare_zdjecie", WINDOW_AUTOSIZE);
 	//namedWindow("zdj0_75.jpg", WINDOW_AUTOSIZE);
 	/*
