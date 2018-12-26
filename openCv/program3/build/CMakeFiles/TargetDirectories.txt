@@ -1,0 +1,3 @@
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/openCv/program3/build/CMakeFiles/rebuild_cache.dir
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/openCv/program3/build/CMakeFiles/prog3.dir
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/openCv/program3/build/CMakeFiles/edit_cache.dir
