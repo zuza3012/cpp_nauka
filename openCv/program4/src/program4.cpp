@@ -196,7 +196,7 @@ int main (int argc, char** argv){
 				*/
 				
 					/*		
-					
+					//https://docs.opencv.org/3.2.0/da/d6a/tutorial_trackbar.html
 					src1 = imread (argv[1], 1);
 					src2 = imread (argv[2], 1);
 					
