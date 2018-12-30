@@ -1,0 +1,3 @@
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/nauka1/build/CMakeFiles/rebuild_cache.dir
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/nauka1/build/CMakeFiles/generator.dir
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/nauka1/build/CMakeFiles/edit_cache.dir

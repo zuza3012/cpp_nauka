@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -g  -rdynamic CMakeFiles/generator.dir/src/main.cpp.o CMakeFiles/generator.dir/src/random.cpp.o CMakeFiles/generator.dir/src/uniform.cpp.o CMakeFiles/generator.dir/src/gauss.cpp.o CMakeFiles/generator.dir/src/poisson.cpp.o  -o bin/generator  -L/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/nauka1/build/bin 
