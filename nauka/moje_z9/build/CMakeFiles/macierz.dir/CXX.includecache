@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/macierz.h
+iostream
+-
+time.h
+-
+string
+-
+fstream
+-
+
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/moje_z9/src/macierz.cpp
+macierz.h
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/moje_z9/src/macierz.h
+
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/moje_z9/src/main.cpp
+macierz.h
+/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/moje_z9/src/macierz.h
+

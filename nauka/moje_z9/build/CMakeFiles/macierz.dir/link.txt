@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -g  -rdynamic CMakeFiles/macierz.dir/src/main.cpp.o CMakeFiles/macierz.dir/src/macierz.cpp.o  -o bin/macierz  -L/home/zuzwie/zuza/programowanie/jp/git_poczatki/nauka/moje_z9/build/bin 
